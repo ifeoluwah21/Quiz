@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Quiz App</title>
+</head>
+
+<body>
+  <header>
+    <h1>Home of the Quiz app</h1>
+  </header>
+  <main>
+    <form action="">
+      <label for="name"> <span>Name</span>
+        <input type="text" name="name" id="name" required>
+      </label>
+      <label for="difficulty"><span>difficulty</span>
+        <select name="difficulty" id="difficulty" required>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </label>
+      <label for="category"><span>Category</span>
+        <select name="category" id="category" required>
+          <option value="">select category</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn--submit__userinfo">Start</button>
+    </form>
+  </main>
+</body>
+<script type="module" src="./main.js" defer></script>
+
+</html>
